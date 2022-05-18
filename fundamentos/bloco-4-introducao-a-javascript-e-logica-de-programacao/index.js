@@ -38,7 +38,7 @@ if (primeiroNumero > segundoNumero){
 
 // exercicios 03 - imprimir o maior em três números 
 
-const numero1 = 15;
+/*const numero1 = 15;
 const numero2 = 36;
 const numero3 = 5;
 
@@ -48,4 +48,16 @@ if (numero1 > numero2 && numero1 > numero3 ){
     console.log('O segundo número é o maior!', numero2);
 }else {
     console.log('O terceiro número é o maior!', + numero3);
+};*/
+
+//exercicio 04 - definir um valor numa const, retorne 'positive' caso positivo, retorne 'negative' caso negativo e 'zero' caso contratio
+
+const valor = 0;
+
+if (valor > 0){
+    console.log('Positive', + valor);
+}else if (valor < 0){
+    console.log('Negative', + valor);
+}else{
+    console.log('Zero', + valor);
 }

@@ -52,7 +52,7 @@ if (numero1 > numero2 && numero1 > numero3 ){
 
 //exercicio 04 - definir um valor numa const, retorne 'positive' caso positivo, retorne 'negative' caso negativo e 'zero' caso contratio
 
-const valor = 0;
+/*const valor = 0;
 
 if (valor > 0){
     console.log('Positive', + valor);
@@ -60,4 +60,18 @@ if (valor > 0){
     console.log('Negative', + valor);
 }else{
     console.log('Zero', + valor);
+}*/
+
+//Exercicio 05 - 3 const c/ 3 valores de angulos internos triangulo, true se representar um triangulo e false caso não. uma msg de erro
+// para os angulos serem de um triangulo valido, a soma dos 3 devem ser 180 graus;
+// Um angulo sera consoderado invalido se nao tiver um valor positivo;
+
+const angulo1 = 70;
+const angulo2 = 50;
+const angulo3 = 70;
+
+if (angulo1 + angulo2 + angulo3 === 180) {
+    console.log('Esses ângulos formam um triângulo!!!');
+}else{
+    console.log('ERRO! Infelizmente não se trata de um triangulo!!!');
 }

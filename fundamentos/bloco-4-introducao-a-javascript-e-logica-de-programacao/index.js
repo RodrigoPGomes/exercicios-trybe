@@ -27,12 +27,25 @@ switch (resultado)
 
 // exercicio 02 - Imprimir o maior de dois numeros
 
-const primeiroNumero = 35;
+/*const primeiroNumero = 35;
 const segundoNumero = 55;
 
 if (primeiroNumero > segundoNumero){
     console.log('Primeiro número é maior que o segundo!');
 }else{
     console.log('O segundo número é maior que o primeiro!');
-}
+}*/
 
+// exercicios 03 - imprimir o maior em três números 
+
+const numero1 = 15;
+const numero2 = 36;
+const numero3 = 5;
+
+if (numero1 > numero2 && numero1 > numero3 ){
+    console.log('O primeiro número é o maior!', + numero1);
+}else if (numero2 > numero3){
+    console.log('O segundo número é o maior!', numero2);
+}else {
+    console.log('O terceiro número é o maior!', + numero3);
+}

@@ -66,7 +66,7 @@ if (valor > 0){
 // para os angulos serem de um triangulo valido, a soma dos 3 devem ser 180 graus;
 // Um angulo sera consoderado invalido se nao tiver um valor positivo;
 
-const angulo1 = 70;
+/*const angulo1 = 70;
 const angulo2 = 50;
 const angulo3 = 70;
 
@@ -74,4 +74,43 @@ if (angulo1 + angulo2 + angulo3 === 180) {
     console.log('Esses ângulos formam um triângulo!!!');
 }else{
     console.log('ERRO! Infelizmente não se trata de um triangulo!!!');
+}*/
+
+//Exercicio 06 - receba nome de peça de xadrez e retorne os movimentos dela;
+//  Faça funcionar tanto com letras maiusculas qto minusculas, sem aumentar as condicionais;
+//  Dica, vc pode pesquisar uma função que faz a string ficar com todas as letras minusculas (lower case).
+//  Se a peça passada for invalida, deve retornar uma msg de erro
+//  Exemplo: bishop (bispo) -> diagonals (diagonais)
+
+let pecaXadrez = 'queen';
+console.log(pecaXadrez);
+
+
+switch (pecaXadrez.toLowerCase()){
+    case 'queen':
+        console.log('Em todas as direções sem limite de casas!');
+        break;
+
+    case 'king':
+        console.log('Todas as direções , mas limitado  apenas à uma casa');
+        break;
+
+    case 'bishop':
+        console.log('Nas diagonais, sem limites de casas!');
+        break;
+
+    case 'tower':
+        console.log('Nas verticais e horizontais, sem limites de casas!');
+        break;
+
+    case 'horse':
+        console.log('Em "L"!');
+        break;
+
+    case 'top':
+        console.log('Apenas para frente!');
+        break;
+
+    default: 
+    console.log('Peça inesistente no jogo de xadrez!');
 }
